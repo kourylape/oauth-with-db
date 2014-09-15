@@ -1,0 +1,21 @@
+{
+    "name": "ckylape/oauth-with-db",
+    "description": "OAuth 2.0 for Authorization and MySQL for Authentication",
+    "keywords": ["laravel", "oauth", "authentication", "authorization"],
+    "authors": [
+        {
+            "name": "Koury Lape",
+            "email": "ckylape@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Ckylape\\OAuthWithDatabase\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
